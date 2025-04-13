@@ -1,0 +1,157 @@
+html { scroll-behavior: smooth; }
+
+nav {
+  background: white;
+  position: fixed;
+  top: 6rem;
+  right: 4rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 8px 0;
+}
+
+a {
+  color: #9ecadf;
+  text-decoration: none;
+}
+
+.nav-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 3rem 0 0 0;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #4ec88d;
+}
+
+p {
+  margin-right: 20vw;
+  font-weight: 400;
+}
+
+ol {
+  font-style: italic;
+  margin: 0;
+  padding: 2rem 1rem;
+  display: flex; flex-direction: column;
+  gap: 1.5rem;
+  margin-right: 20vw;
+}
+
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image p {
+  margin: 0.5rem 0;
+}
+
+img {
+  max-height: 60vh;
+  max-width: 70vw;
+}
+
+.two-col {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.two-col img {
+  max-width: 45vw;
+}
+
+.hero {
+  width: 100vw !important;
+  max-width: 100vw;
+  border-bottom: 12px solid #F0D300;
+}
+
+#hero {
+  margin-top: 2rem;
+}
+
+hr {
+  width: 90vw;
+  color: #80B6CF;
+}
+
+.title h2 {
+  margin-top: -2rem;
+}
+
+.App-header {
+  background-color: #183433;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  color: white;
+}
+.App-header p {
+  margin: 0;
+}
+
+
+#takeaway {
+  margin-bottom: 12rem;
+}
+
+footer {
+  background-color: #183433;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2rem;
+  font-size: 1rem;
+  border-top: 12px solid #F0D300;
+  font-style: italic;
+}
+.top {
+  margin-top: 4rem;
+}
+
+
+.primary {
+  background-color: white;
+  color: #183433;
+  margin: 8rem;
+}
+
+.secondary {
+  background-color: #183433;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 4rem 8rem;
+}
